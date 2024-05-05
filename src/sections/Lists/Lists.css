@@ -1,0 +1,20 @@
+.filter-main {
+    display: inline-block;
+    background-color: var(--color-dark);
+    border-radius: calc(var(--border-radius-primary) / 2);
+    padding: calc(var(--padding-primary) / 2);
+    margin: calc(var(--margin-primary) / 5);
+}
+
+.lists-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.list-create-btn {
+    text-align: center;
+    padding: var(--padding-primary);
+    padding-bottom: 0;
+}

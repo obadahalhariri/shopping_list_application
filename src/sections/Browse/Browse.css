@@ -1,0 +1,28 @@
+.browse-main {
+background-color: var(--color-darkest);
+padding: var(--padding-primary);
+border-radius: var(--border-radius-primary);
+margin-bottom: var(--margin-primary);
+}
+
+.browse-text {
+    color:var(--color-light);
+    max-width: 750px;
+}
+
+.browse-subtitle {
+    font-size: 25px;
+    font-weight: var(--font-weight-normal);
+    margin-bottom: calc(var(--distance-primary) / 2);
+}
+
+.browse-title {
+    font-size: 60px;
+    margin-bottom: calc(var(--distance-primary) / 2);
+    font-weight: var(--font-weight-bold);
+}
+
+.browse-title em {
+    font-style: normal;
+    color: var(--color-primary);
+}

@@ -1,0 +1,23 @@
+.list-item {
+    flex: 1 25%;
+}
+
+.item-wrapper {
+    background-color: var(--color-dark);
+    border-radius: calc(var(--border-radius-primary) / 2);
+    padding: calc(var(--padding-primary) / 2);
+    margin: calc(var(--margin-primary) / 5);
+}
+
+.list-item-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item-content span {
+    color: gray;
+}
+
+.list-item-buttons li {
+    padding-bottom: calc(var(--padding-primary) / 2);
+}

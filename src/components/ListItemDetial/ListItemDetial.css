@@ -1,0 +1,16 @@
+.list-item-detail {
+    background-color: var(--color-dark);
+    border-radius: calc(var(--border-radius-primary) / 2);
+    padding: calc(var(--padding-primary) / 2);
+    margin: calc(var(--margin-primary) / 5);
+    flex: 1 1 100%;
+}
+
+.list-item-detail ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item-detail span {
+    color: gray
+}

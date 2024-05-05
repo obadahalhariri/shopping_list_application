@@ -1,0 +1,4 @@
+.list-detail {
+display: flex;
+flex-wrap: wrap;
+}
