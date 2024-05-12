@@ -1,4 +1,4 @@
-.list-detail {
-display: flex;
-flex-wrap: wrap;
+.list-detail-main {
+    display: flex;
+    flex-wrap: wrap;
 }

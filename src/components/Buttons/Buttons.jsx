@@ -1,18 +1,19 @@
 import './Buttons.css'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const PrimaryButton = (props) => {
+const PrimaryButton = ({ to, onClick, children }) => {
     return (
         <div className='button primary-btn'>
-            <a href="/#">{props.children}</a>
+            <a href={to} onClick={onClick}>{children}</a>
         </div>
     )
 }
 
-const SecondaryButton = (props) => {
+const SecondaryButton = ({ to, children }) => {
     return (
         <div className='button secondary-btn'>
-            <a href="/#">{props.children}</a>
+            <Link to={to}>{children}</Link>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 .list-item {
-    flex: 1 25%;
+    flex: 1 1 50%;
 }
 
 .item-wrapper {
@@ -16,6 +16,11 @@
 
 .list-item-content span {
     color: gray;
+}
+
+.list-item-buttons ul {
+    display: flex;
+    justify-content: space-around;
 }
 
 .list-item-buttons li {

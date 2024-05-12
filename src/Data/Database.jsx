@@ -16,6 +16,11 @@ let Database = {
             items: [
                 { id: 1, name: "Apples", solved: false },
                 { id: 2, name: "Milk", solved: true },
+                { id: 3, name: "Bread", solved: false },
+                { id: 4, name: "Eggs", solved: true },
+                { id: 5, name: "Chicken", solved: false },
+                { id: 6, name: "Chess", solved: false },
+                { id: 7, name: "Olives", solved: false },
             ],
         },
         {
@@ -27,6 +32,10 @@ let Database = {
             items: [
                 { id: 1, name: "Toilet Paper", solved: false },
                 { id: 2, name: "Dish Soap", solved: false },
+                { id: 3, name: "Trash Bags", solved: false },
+                { id: 4, name: "Laundry Detergent", solved: false },
+                { id: 5, name: "Paper Towels", solved: false },
+                { id: 6, name: "Shampoo", solved: false },
             ],
         },
         {
@@ -38,6 +47,14 @@ let Database = {
             items: [
                 { id: 1, name: "Book", solved: false },
                 { id: 2, name: "Watch", solved: true },
+                { id: 3, name: "Perfume", solved: false },
+                { id: 4, name: "Socks", solved: false },
+                { id: 5, name: "Scarf", solved: false },
+                { id: 6, name: "Book", solved: false },
+                { id: 7, name: "Ring", solved: false },
+                { id: 8, name: "Watch", solved: false },
+                { id: 9, name: "Phone", solved: false },
+                { id: 10, name: "Toy", solved: false },
             ],
         },
         {
@@ -47,8 +64,10 @@ let Database = {
             invitedMembers: [1, 2],
             archived: false,
             items: [
-                { id: 1, name: "Laptop", solved: false },
-                { id: 2, name: "Smartphone", solved: false },
+                { id: 1, name: "Laptop", solved: true },
+                { id: 2, name: "Smartphone", solved: true },
+                { id: 3, name: "Headphones", solved: true },
+                { id: 4, name: "Charger", solved: true },
             ],
         },
         {
@@ -60,6 +79,9 @@ let Database = {
             items: [
                 { id: 1, name: "T-shirt", solved: false },
                 { id: 2, name: "Jeans", solved: true },
+                { id: 3, name: "Sweater", solved: false },
+                { id: 4, name: "Dress", solved: true },
+                { id: 5, name: "Jacket", solved: false },
             ],
         },
         {
@@ -71,6 +93,9 @@ let Database = {
             items: [
                 { id: 1, name: "Curtains", solved: false },
                 { id: 2, name: "Rug", solved: false },
+                { id: 3, name: "Lamp", solved: false },
+                { id: 4, name: "Painting", solved: false },
+                { id: 5, name: "Clock", solved: false },
             ],
         },
         {
@@ -82,6 +107,9 @@ let Database = {
             items: [
                 { id: 1, name: "Football", solved: false },
                 { id: 2, name: "Yoga Mat", solved: true },
+                { id: 3, name: "Basketball", solved: false },
+                { id: 4, name: "Weights", solved: true },
+                { id: 5, name: "Jump Rope", solved: true },
             ],
         },
         {
@@ -91,11 +119,14 @@ let Database = {
             invitedMembers: [2, 4],
             archived: true,
             items: [
-                { id: 1, name: "Passport Holder", solved: false },
+                { id: 1, name: "Passport Holder", solved: true },
                 { id: 2, name: "Travel Pillow", solved: true },
+                { id: 3, name: "Travel Adapter", solved: true },
+                { id: 4, name: "Luggage", solved: true },
+                { id: 5, name: "Travel Bottles", solved: true },
             ],
         },
     ],
 };
 
-export default Database
+export default Database;

@@ -3,8 +3,9 @@
     border-radius: 25px;
     padding: 50px;
 }
+
 .login-card {
-    background-color: var(--color-dark);
+    background-color: var(--color-darkest);
     color: var(--color-light);
     border-radius: calc(var(--border-radius-primary) / 2);
 }
